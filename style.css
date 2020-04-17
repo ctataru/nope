@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+form {
+  display: inherit;
+  margin-block-end: 0;
+}
+
+input {
+  height: 30px;
+  align-self: center;
+  margin-left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.page {
+  height: 100%;
+  margin-bottom: -240px; 
+  margin-top: 200px;
+}
+
+.page:after {
+  content: "";
+  display: block;
+}
+
+#footer, .page:after {
+  height: 40px; 
+}
+
+#go-home {
+  top: 4;
+  left: 4;
+  cursor: pointer;
+  position: absolute;
+}

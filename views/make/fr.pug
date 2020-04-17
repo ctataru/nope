@@ -1,0 +1,14 @@
+script(src='utils.js')
+link(rel='stylesheet', href='style.css')
+
+.page
+  div(style='display: inline-flex')
+    h2 nan,
+    form#make-form(onsubmit="sendMake()")
+      input#name-input(type='text')
+
+  h3 j'ai pas envie.
+
+  button(onclick="sendMake()" style='margin-top: 20px;') Crée ton nope.
+
+include ../footer.pug

@@ -1,0 +1,13 @@
+script(src='utils.js')
+link(rel='stylesheet', href='style.css')
+
+.page
+  div(style='display: inline-flex')
+    h2 nope,
+    form#make-form(onsubmit="sendMake()")
+      input#name-input(type='text')
+  h3 don't want to.
+
+  button(onclick="sendMake()" style='margin-top: 20px;') Make your nope.
+
+include ../footer.pug
